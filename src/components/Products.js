@@ -1,5 +1,6 @@
 import React from 'react';
 import "./css/product-card.css";
+import "./css/responsive.css";
 
 const products = [
     {

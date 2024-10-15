@@ -1,0 +1,26 @@
+@media(max-width:380px){
+    .product-list{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 2px;
+        justify-items: center;
+        
+    }
+
+    .product-card{
+        width: 90%;
+        margin-top: 10px;
+    }
+    .addtocartbtn{
+        margin-top: 5px;
+    }
+
+}
+@media(max-width:600px) and (min-width:381px){
+    .product-list{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2px;
+        justify-items: center;
+    }
+}
